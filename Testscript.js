@@ -1,9 +1,9 @@
 function test(age){
-    if age == 18{
-        alert("above 18");
+    if age >= 18{
+        alert("Adult");
     }
     else{
-        alert("too young");
+        alert("Minor");
     }
     test(18)
 }
